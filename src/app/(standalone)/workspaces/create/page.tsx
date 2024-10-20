@@ -1,4 +1,4 @@
-import { getCurrent } from '@/features/auth/actions'
+import { getCurrent } from '@/features/auth/queries'
 import { WorkspaceForm } from '@/features/workspaces/components/workspace-form'
 import { redirect } from 'next/navigation'
 import { FC } from 'react'
